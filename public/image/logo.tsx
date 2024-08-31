@@ -1,15 +1,14 @@
 import Image from "next/image";
-
+import logo from "./logo-cp.png"
 export const Logo = () => {
   return (
-    <div className="flex flex-row">
+<div className="flex flex-row">
       <Image
-        src="/logo-cp.png"
+        src={logo}
         alt="logo"
-        className="h-10 w-10"
-        width={70}
-        height={70}
-      />
-    </div>
+        width={300}
+        height={300}
+        />
+        </div>
   );
 };

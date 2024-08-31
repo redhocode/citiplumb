@@ -1,11 +1,11 @@
 import Image from "next/image";
-
+import pp from "../../public/image/PP.jpg"
 export default function Home() {
   return (
    <><h1>Hello world</h1><Image
-      src="/public/image/logo-cp.png"
+      src={pp}
       alt="logo"
-      className="h-10 w-10"
+      className="object-cover"
       width={200}
       height={200} /></>
   );
